@@ -1,7 +1,5 @@
 <templateSet group="Kotlin">
-  <template name="sout" value="println(TAG + &quot; ${$END$}&quot;)&#10;" description="Prints a string to System.out" toReformat="true" toShortenFQNames="false">
-    <context>
-      <option name="KOTLIN_STATEMENT" value="true" />
-    </context>
+  <template name="sout" value="println(TAG + &quot; ${$END$}&quot;)" description="Prints a string to System.out" toReformat="true" toShortenFQNames="false">
+    <context />
   </template>
 </templateSet>
